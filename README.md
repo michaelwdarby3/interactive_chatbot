@@ -25,6 +25,11 @@ Setup requires only that you have access to sqlite3, click, and uuid.  sqlite3 i
 To begin use, you should first run 'python initialize_sql_backend.py', which will create the database object and all tables you need within it.  Next, you should add questions to the tables, using cli.py's add_question and change_question_text and change_question_meaning functionality.  You should also use front_end.py to simulate a user on this system, to see your questions come up and provide responses.  You can sanity check that these have come through using the cli, as well.  
 
 
+*SUCCESSES*
+
+The major successes were in completing a somewhat coherent, fairly complete database system, with a cli for use by developers with all immediately needed functionality, and a front end for adding user data.  The structure has held up to my (admittedly minimal) tests, and the user-facing side was remarkably easy to throw together considering the value it added to my process.
+
+
 *CHALLENGES*
 
 The primary challenge was developing a sensible structure to retain questions over time and map those to customer responses in a limited time frame. The problem is not particularly complex, but coming up with an extensible and appropriate structure with so little time to stew was the most difficult part for me.
